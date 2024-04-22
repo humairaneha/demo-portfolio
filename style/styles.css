@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     font-family: "Open Sans";
 }
@@ -13,6 +16,8 @@ nav{
 display: flex;
 align-items: center;
 justify-content: space-between;
+margin: 0px 200px;
+padding-top: 40px;
 
 
 
@@ -49,3 +54,51 @@ nav li>a{
     padding: 15px 35px;
 }
 
+/* header related styles */
+
+header{
+
+    background: #FFF8F3;
+}
+
+
+
+
+.banner{
+    display: flex;
+    background-image: url("..\images\header_bg.png");
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/header_bg.png"),url("../images/developer.png");
+background-position: right bottom,top left ;
+background-repeat: no-repeat;
+padding:30px 120px 0px 200px;
+}
+.banner-greetings{
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+color: #474747;
+
+}
+.banner h1{
+    
+    font-size: 85px;
+font-style: normal;
+font-weight: 700;
+color: #181818;
+}
+
+.banner p{
+    color:  #757575;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+
+}
+
+.banner-image{
+    width: 500px;
+}
