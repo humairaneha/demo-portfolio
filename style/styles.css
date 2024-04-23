@@ -57,8 +57,8 @@ nav li>a{
 header{
 
     background: #FFF8F3;
-    background-image: url("images/header_bg.png"),url("images/developer.png");
-    background-position: right bottom,bottom left ;
+    background-image: url('/images/header_bg.png'),url('/images/developer.png');
+    background-position: right bottom, left ;
     background-repeat: no-repeat;
     padding: 0;
   
