@@ -229,3 +229,60 @@ padding: 0;
 font-weight: 600;
 margin: 0;
 }
+footer{
+    margin-top: 100px;
+    background: #FFF8F3;
+    padding:130px 0;
+}
+.footer-container{
+    display: flex;
+    gap:110px;
+    max-width: 1140px;
+    margin: 0px auto;
+  
+    
+}
+
+.links{
+    width:50%;
+    justify-content: center;
+}
+.form{
+    justify-content: center;
+    width:50%;
+}
+
+input[type="text"],input[type="email"],textarea{
+    display: block;
+    border-radius: 5px;
+    background: #FFF;
+    border:0;
+    margin-bottom: 25px;
+    padding:18px 35px; 
+    width:80% 
+
+}
+
+
+
+.link-title ,.form-title{
+
+    font-size: 35px; 
+}
+
+.link-description{
+    color:  #474747;
+
+font-size: 16px;
+margin-bottom: 25px;
+}
+.fa-phone{
+   padding-right: 10px;
+   margin: 0;
+}
+.contact-btn{
+    background: #FFF8F3; 
+    color:#FD6E0A;
+    border:2px solid;
+    
+}
